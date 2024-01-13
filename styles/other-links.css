@@ -1,0 +1,39 @@
+.other-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-divs {
+    flex: 1;
+    min-width: 365px;
+    display: flex;
+    height: 150px;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+.row-divs div {
+    flex: 1;
+}
+.link-box .head {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.link-box .body {
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.link-box .body .div {
+    width: 100%;
+}
+.media-icon-box {
+    cursor: pointer;
+}
+.link-box .body div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

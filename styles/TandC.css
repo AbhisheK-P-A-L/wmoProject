@@ -1,0 +1,19 @@
+.TC {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+    border: solid;
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: rgb(231, 231, 231);
+    padding: 18px;
+    padding-bottom: 6px;
+    color: rgb(119, 119, 119);
+}
+.TandC-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+    margin-right: 20px;
+}

@@ -1,0 +1,23 @@
+.info-box-container {
+    margin-top: 25px; 
+    margin-bottom: 40px;
+    margin: 25px 20px 40px;
+}
+.info-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.info-box-template {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    padding: 20px;
+}
+.info-box-template .header {
+    font-size: 26px;
+}
+.info-box-template .body {
+    font-size: 15px;
+}

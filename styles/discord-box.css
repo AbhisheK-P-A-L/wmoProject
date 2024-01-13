@@ -1,0 +1,27 @@
+.discord-box {
+    background-color: rgb(75, 75, 175);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    gap: 2rem;
+    margin: 70px 20px;
+
+    border-radius: 10px;
+}
+.discord-box div button {
+    height: 44px;
+    width: 200px;
+    border-radius: 22px;
+    border: none;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(75, 75, 175);   
+}
